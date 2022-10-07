@@ -52,20 +52,23 @@ Most people do know when their birthdays are, but some might not know what day o
 ## Setup/Installation Requirements
 * The application should check whether the date and month entered is valid.
 
-* If either of them is invalid,  the user should be alerted and asked to enter a valid one. For example:
-        An invalid day should be (d<=0) or (d>31)
 
-        An invalid month should be (m<= 0) or (m > 12)  
+        -Open the code with VSCode
+        -Enter dates that are valid as per the annual calender
+        - Go Live
 
+         
+0
 * The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
 ## Known Bugs
-As i hand over this project there are no known bugs but are many options on how to derive to this solution under different programs and codes.
+As I hand over this project there are no known bugs but are many options on how to derive to this solution under different programs and codes.
 ## Technologies Used
 * CSS
 * Java script
 * Html
+* Gitbash
 ## live link
-https://github.com/DEBORAH72/week-two-project
+https://DEBORAH72.github.io/week-two-project
 
 ## Support and contact details
 Every programmer hopes their program runs error free but incase the bug strikes ,just refresh the page and form again and you should be good to go.
