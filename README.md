@@ -1,7 +1,6 @@
-# # APP FOR AKAN NAMES .
+# WHAT IS YOUR AKAN NAMES .
 #### Most people dont know their DAY of birth hence reason to get Akan names as they know day of birth in Ghana, {06 October 2022}
-####
-Courtesy of: -
+#### Courtesy of: -
 {James and Jensen.W,Deborah
 and Safaricom Digital Academy}
 ## Description
@@ -48,9 +47,8 @@ Most people do know when their birthdays are, but some might not know what day o
  b)Choose what gender I am.
 
 
-
 ## Setup/Installation Requirements
-* The application should check whether the date and month entered is valid.
+ The application should check whether the date and month entered is valid.
 
 
         -Open the code with VSCode
@@ -58,8 +56,8 @@ Most people do know when their birthdays are, but some might not know what day o
         - Go Live
 
          
-0
-* The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
+
+This application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
 ## Known Bugs
 As I hand over this project there are no known bugs but are many options on how to derive to this solution under different programs and codes.
 ## Technologies Used
