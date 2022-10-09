@@ -14,9 +14,9 @@ h1 {
     line-height: 40px;
     box-sizing: border-box;
   }
-  body{background-color: rgb(6, 47, 82);
+  body{background-color: rgb(227, 249, 32);
 margin: 0;
-padding: inherit 0;
+padding:0%;
 }
 .container{
     background-color:rgba(152, 156, 160, 0.251);
