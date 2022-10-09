@@ -54,7 +54,9 @@ Most people do know when their birthdays are, but some might not know what day o
         -Open the code with VSCode
         -Enter dates that are valid as per the annual calender
         - Go Live
+To use the web app, go to this link. All you will need is a web browser. The website is screen-responsive, so you can use it easily on a mobile device or tablet.
 
+If you would like to edit the page or customize it, you will need to install a code editor, preferably Visual Studio Code.
          
 
 This application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
