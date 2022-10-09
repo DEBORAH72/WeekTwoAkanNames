@@ -1,120 +1,111 @@
-const DAYS_OF_THE_WEEK = ["Sunday","Monday","Tuesday","Wednesday","Thurday","Friday","Saturday"];
-const MALE_NAME = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-const FEMALE_NAME = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-
-var century = 19;
-var year = 1989;
-var month = 12;
-var day = 3;
-var gender = 'f';
-var indexOfTheDay = (((century/4) -2*century-1 + ((5*year/4) ) + ((26*(month+1)/10))))
-
-
-
-
-h1 {
-    color: rgb(14, 14, 43);
+body {
+    background-image: url("../img/386.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 300px;
     text-align: center;
+    color: white;
   }
-  h2 {
-    color: burlywood;
-    font-style: italic;
+  
+  #content {
+    height: 100vh;
+    background-image: linear-gradient(160deg, rgba(60, 60, 60, 0.98), rgba(70, 15, 15, 0.98) 90%);
+    overflow: auto;
+    padding-bottom: 180px;
+  }
+  
+  #home-main, #main {
+    width: 100%;
+    height: 80%;
+    min-height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+  }
+  
+  #logo {
+    font-family: monospace;
+    font-size: 2.3em;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
     text-align: center;
+    text-decoration: none;
   }
-  p {
-    font-family: sans-serif;
-  }
-  ul {
-    line-height: 40px;
-    box-sizing: border-box;
-  }
-  body{background-color: rgb(227, 249, 32);
-margin: 0;
-padding:0%;
-}
-.container{
-    background-color:rgba(152, 156, 160, 0.251);
-    min-height: 100px;
-    width: 520px;
-    margin: 100px auto;
-    border-radius: 5px;
-    height: auto ;
-}
- .base {
-    width: 100% ;
-    margin: 0;
-    overflow: hidden;
-    display: block;
-    float: none;
- } 
- .base h4 {
-font-size: 26px;
-text-align: center;
-font-family: sans-serif;
-margin-top: 0px;
-box-shadow: 0px 2px #bababa;
-font-weight: normal;
-color: navy;
-background: white;
-padding: 5px;
-}
-.block{
-    width: 135px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    display: inline-block ;
-    float: left;
-}
-.title{
-    font-size: 20px;
+  
+  .lead {
     text-align: left;
-    font-family: sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.5px;
-    color: rgb(69, 6, 6);
-    word-spacing: 2.7px;
-}
-input[type=text]{
-width: 140px;
-margin: auto;
-outline: none;
-min-height: 50px;
-border: 2px solid #1073d0;
-border-radius: 2px;
-color: #1073d0;
-font-size: 17px;
-padding: 12px;
-}
-input[type=text]:focus{
-    background: rgb(247, 245, 245);
-    border: 2px solid orange;    
-}
-input[type=button]{
-width: 150px;
-margin-left: 35%;
-margin-top: 40px;
-outline: none;
-border: none;
-border-radius: 2px;
-background-color: #0761b6;
-padding: 14px 16px;
-color: white;
-font-size: 17px;
-}
-input[type=button]:hover{
-    background-color: #003669;
-}
-.age{
-    display: block;
-    margin: 10px;
-    margin-top: 35px;
-    padding-bottom: 20px;
-    overflow: hidden;
-    font-family: sans-serif;
-    font-size: 23px;
-    font-weight: normal;
-    line-height: 1.5px;
-    word-spacing: 2.7px;
-    color: yellow;
-    padding: 10px;
-}
+    font-size: 1.5em;
+  }
+  #info {
+    text-align: center;
+  }
+  
+  #intro {
+    max-width: 1580px;
+  }
+  #exit {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 10%;
+    /* margin-left: 88%;
+    margin-top: 5%; */
+    /* position: absolute; */
+  }
+  
+  .custom {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  a:visited, a:link, .error {
+    color: #ffacb4;
+  }
+  a:hover, a:active{
+    color: #ce1126;
+    text-decoration: underline;
+  }
+  
+  .form-check-inline {
+    font-size: 1.8em;
+    margin: 30px;
+  }
+  
+  [type=radio] {
+    height: 20px;
+    width: 20px;
+  }
+  .btn {
+    font-size: 1.2em;
+  }
+  
+  .navbar {
+    margin-bottom: 60px;
+  }
+  .avatar {
+    min-width: 350px;
+    max-width: 400px;
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    body{font-size: 12px;}
+    .lead{font-size: 20px; font-weight: 400; text-align: justify;}
+    .display-3{font-size: 30px; font-weight: 500;}
+    .container{padding: 0;}
+    .form-check-inline{margin: 10px;}
+    [for=male],[for=female]{font-size: 20px;}
+    [type=radio]{height: 13px; width: 13px;}
+    h1{font-size: 30px;}
+    #logo{font-size: 35px;}
+    .error{font-size: 1.3em;}
+    #exit{height: 20px; width: 20px;}
+    #intro{max-width: 700px;}
+    .navbar {margin-bottom: 0; padding: 0;}
+    #content{padding: 0;}
+  }
