@@ -4,47 +4,36 @@
 {James and Jensen.W,Deborah
 and Safaricom Digital Academy}
 ## Description
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+#### https://DEBORAH72.github.io/WeekTwoAkanNames/index.html
+# Akan Calculator
+#### Calculates a user's day of birth and assigns an Akan name based on gender
+#### October 8,2022
+#### By *Deborah M Muthiani*
+## Description
+Akan Calculator is exactly what its name suggests — a calculator. The project is a website that takes a user's birthday as input and calculates which day of the week they were born. The website then assigns the user an Akan name based on their gender, and displays this information on the user's screen. The site has three pages — the home page, the steps page, and the list of Akan names.
 
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+### Homepage
+![Home Page](img/home.png)
+![Home Page](img/mobile.png)
 
-Male
-Sunday: Kwasi
+The homepage acts like a landing page, displaying a short introduction to Akan naming. On it, there is a link to an Akan names list and a button to the calculator. The list is a simple page that contains all the male and female Akan names according to the days of the week.
 
-Monday: Kwadwo
+### Steps page
+![Date Page](img/steps.png)
 
-Tuesday: Kwabena
+The steps page carries the user through three steps. The first step takes in the user's birthday. If an invalid date is entered, it brings up an error message on the page asking the user to enter a valid date. This step also accounts for leap years. By definition, a leap year is divisible by 4. It is not a leap year if it is divisible by 100, unless it is also divisible by 400. Using this knowledge, the web app can make sure that a proper date is entered, and will alert the user if a date above 28th of February is entered on a non-leap year. Simply put, the page will bring up an error if the date entered exceeds the number of days in a given month.
 
-Wednesday: Kwaku
+![Error Page](img/steps2.png)
 
-Thursday:  Yaw
+After submitting their date of birth, the user clicks on a button that takes them to the next step. Here, the user selects a gender, either male or female. If no option is selected, the user recieves an error message.
 
-Friday: Kofi
+![Gender Page](img/steps3.png)
 
-Saturday: Kwame
+On the next step, the user gets to see their Akan, as well as the day on which they were born. There is a reset button that clears all the forms and returns the user to the first step.
 
-Female
-Sunday: Akosua
+![Name Page](img/steps4.png)
 
-Monday: Adwoa
-
-Tuesday: Abenaa
-
-Wednesday: Akua
-
-Thursday:  Yaa
-
-Friday: Afua
-
-Saturday: Ama
-
-Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. This application is built for this USER STORY
-
- User requests to be able to:-
-
- a) Enter my birthday through a form.
-
- b)Choose what gender I am.
+All the steps are on one HTML file. Whenever the user clicks the "Continue" button, the current `<div>` is hidden and the next one is revealed. This is done by simply toggling the `display` property in CSS through JavaScript. By keeping all the steps on one HTML file, none of the data stored in the JavaScript variables is lost.
 
 
 ## Setup/Installation Requirements
