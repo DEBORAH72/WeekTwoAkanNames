@@ -4,7 +4,7 @@
 {James and Jensen.W,Deborah
 and Safaricom Digital Academy}
 ## Description
-#### https://DEBORAH72.github.io/Week-two-akan-names/index.html
+#### https://DEBORAH72.github.io/Week-two-akan-names
 # Akan Calculator
 #### Calculates a user's day of birth and assigns an Akan name based on gender
 #### October 8,2022
