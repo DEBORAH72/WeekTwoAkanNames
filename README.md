@@ -57,7 +57,7 @@ As I hand over this project there are no known bugs but are many options on how 
 * Html
 * Gitbash
 ## live link
-https://DEBORAH72.github.io/week-two-project
+https://DEBORAH72.github.io/week-two-akan-names
 
 ## Support and contact details
 Every programmer hopes their program runs error free but incase the bug strikes ,just refresh the page and form again and you should be good to go.
