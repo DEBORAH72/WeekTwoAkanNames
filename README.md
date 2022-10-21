@@ -13,25 +13,25 @@ and Safaricom Digital Academy}
 Akan Calculator is exactly what its name suggests — a calculator. The project is a website that takes a user's birthday as input and calculates which day of the week they were born. The website then assigns the user an Akan name based on their gender, and displays this information on the user's screen. The site has three pages — the home page, the steps page, and the list of Akan names.
 
 ### Homepage
-![Home Page](img/home.png)
-![Home Page](img/mobile.png)
+![Home Page](images/home.png)
+![Home Page](images/mobile.png)
 
 The homepage acts like a landing page, displaying a short introduction to Akan naming. On it, there is a link to an Akan names list and a button to the calculator. The list is a simple page that contains all the male and female Akan names according to the days of the week.
 
 ### Steps page
-![Date Page](img/steps.png)
+![Date Page](images/steps.png)
 
 The steps page carries the user through three steps. The first step takes in the user's birthday. If an invalid date is entered, it brings up an error message on the page asking the user to enter a valid date. This step also accounts for leap years. By definition, a leap year is divisible by 4. It is not a leap year if it is divisible by 100, unless it is also divisible by 400. Using this knowledge, the web app can make sure that a proper date is entered, and will alert the user if a date above 28th of February is entered on a non-leap year. Simply put, the page will bring up an error if the date entered exceeds the number of days in a given month.
 
-![Error Page](img/steps2.png)
+![Error Page](images/steps2.png)
 
 After submitting their date of birth, the user clicks on a button that takes them to the next step. Here, the user selects a gender, either male or female. If no option is selected, the user recieves an error message.
 
-![Gender Page](img/steps3.png)
+![Gender Page](images/steps3.png)
 
 On the next step, the user gets to see their Akan, as well as the day on which they were born. There is a reset button that clears all the forms and returns the user to the first step.
 
-![Name Page](img/steps4.png)
+![Name Page](images/steps4.png)
 
 All the steps are on one HTML file. Whenever the user clicks the "Continue" button, the current `<div>` is hidden and the next one is revealed. This is done by simply toggling the `display` property in CSS through JavaScript. By keeping all the steps on one HTML file, none of the data stored in the JavaScript variables is lost.
 
